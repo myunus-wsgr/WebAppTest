@@ -25,7 +25,7 @@ namespace WebAppTest
         {
             services.AddRazorPages();
         }
-        public test()
+         public int test()
         {
             return 0;
         }
