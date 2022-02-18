@@ -26,6 +26,11 @@ namespace WebAppTest
             services.AddRazorPages();
         }
 
+        public void Test()
+        {
+            this is test to check error
+                return 0;
+        }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
